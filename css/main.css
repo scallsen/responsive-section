@@ -66,14 +66,68 @@ h2 {
 
 @media only screen and (min-width: 38em) {
 
+  p {
+    line-height: 1.5;
+    font-size: 120%;
+  }
 
+  h2 {
+    font-size: 1.8rem;
+  }
 
+  .section-body {
+    display: inline-block;
+    width: 58%;
+  }
+
+  .section-letter {
+    float: left;
+    padding-left: 1rem;
+  }
+
+  .section-icon {
+    float: right;
+    padding-right: 1rem;
+  }
+
+  section div img {
+    width: 5rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
+  p {
+    line-height: 1.5;
+    font-size: 130%;
+  }
 
+  section div img {
+    width: 8rem;
+  }
 
+  .section-letter {
+    float: left;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+  }
+
+  .section-icon {
+    float: right;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+  }
+
+  .img-flex {
+    min-height: 11rem;
+  }
+
+  .wrapper {
+  }
+
+  h2 {
+    margin-top: 1rem;
+  }
 }
 
 @media only screen and (min-width: 90em) {
